@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.lengthValue {
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+}

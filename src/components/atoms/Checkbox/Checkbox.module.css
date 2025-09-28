@@ -1,0 +1,25 @@
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.label {
+  color: var(--color-muted-foreground);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
